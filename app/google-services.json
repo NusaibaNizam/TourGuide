@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1048600502619",
+    "firebase_url": "https://tourguide-fe33c.firebaseio.com",
+    "project_id": "tourguide-fe33c",
+    "storage_bucket": "tourguide-fe33c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048600502619:android:61889de1a0ae2753",
+        "android_client_info": {
+          "package_name": "org.a55889966.bleach.saran.tourguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048600502619-e7ar938khj2qt2lld6mae916v3q7s94g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZQB1jrMFVslnrhFvi3ykj_OxJD0qx5is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

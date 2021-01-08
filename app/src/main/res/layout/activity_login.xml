@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.a55889966.bleach.saran.tourguide.LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/blue_backround"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOG IN"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:fontFamily="monospace"
+        android:layout_margin="50dp"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:inputType="textPassword" />
+    <Button
+        android:onClick="logIn"
+        android:id="@+id/loginBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:onClick="forgotPassword"
+        android:id="@+id/forgotPasswordTv"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:onClick="signUp"
+        android:id="@+id/signUpTv"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No account yet? Creat One"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

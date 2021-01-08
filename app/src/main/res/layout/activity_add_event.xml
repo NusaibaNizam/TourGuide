@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.a55889966.bleach.saran.tourguide.AddEventActivity"
+    android:orientation="vertical"
+    android:background="@drawable/blue_backround"
+    android:padding="20dp"
+    >
+    <TextView
+        android:id="@+id/ChangeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add New Event"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:fontFamily="monospace"
+        android:layout_margin="30dp"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:id="@+id/eventNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Event Name"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/startLocationEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Starting Location"
+        android:gravity="center"
+        android:inputType="textNoSuggestions"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:onClick="getLocation"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/destinationEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Destination"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:inputType="textNoSuggestions"
+        android:onClick="getLocation"
+        />
+    <EditText
+        android:focusable="false"
+        android:onClick="depratureDate"
+        android:layout_marginTop="20dp"
+        android:id="@+id/departureDateEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Departure Date"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/budgetET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Your Estimated Budget"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+
+    <Button
+        android:onClick="createNewEvent"
+        android:id="@+id/createEventBtn"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Event"
+        android:textAllCaps="false"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>
